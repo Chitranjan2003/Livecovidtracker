@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "gilroy";
+}
+html,body{
+    width: 100%;
+    background-color: black;
+    height: 100%;
+}
+h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition: all ease-in-out 2s;
+  animation-direction: alternate;
+}
+@keyframes example {
+    from {scale: 1.2;}
+    to { scale: 1;}
+  }
+h2{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+ul{
+    display: flex;
+    top: 20%;
+    position: absolute;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+ li{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(41, 112, 23);
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+    transition: all linear 1s;
+ }
+ li:hover{
+    width: 370px;
+    height: 220px;
+ }
+ li p{
+    position:absolute;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+ }
+ span{
+    font-size: 20px;
+    font-weight: bold;
+ }
+ li h3{
+position: relative;
+top: 50%;
+left: 70%;
+transform: translate(-50%,-50%);
+font-size: 40px;
+ }
